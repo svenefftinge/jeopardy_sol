@@ -1,8 +1,8 @@
 # Jeopardy
 
 ### Gitpod Preview in Browser:
-npm install
-npm start
+- npm install
+- npm start
 
 ## Project Description
 In this unit, coders will create a jeopardy game using react. To create this project, coders will use react to take render content, and react to user clicks.
@@ -15,42 +15,46 @@ Make sure to check off your items as you complete them. [ ] => [x]
 - [x] Fork this repository to your github account and clone it to a new workspace
 - [x] Add, commit, and push your changes
 
-### HTML
-- [ ] Add an input box and button to your page
-- [ ] Add an element that will be where your image result will be displayed on the page
-- [ ] Include a heading for your page and write instructions for your user
-
 ### JS
-- [ ] Create  a fetch() request inside the click handler
-- [ ] Get the response from using your search URL https://api.giphy.com/v1/gifs/search?q=puppy&rating=pg&api_key=rQrXp8Skecms5IYqoh0BS4HeQW9L35LY
-- [ ] Console log the response from your API call
+- [ ] Create a component called Question
+- [ ] Call the question component in  App.js
+- [ ] Update your images and styling with CSS
+
 
 ### Wrap
 - [ ] Push your changes!
 
 ## Day 2
-### JS
-- [ ] Write the jQuery needed to display the original image from your API call to the screen
-- [ ] Take user input from the input box when button is clicked
-- [ ] Update the API request url based on user input
-- [ ] Display the updated image to the screen
+- [ ] Call multiple Question components in your app
+- [ ] Add props to each  Question component including
+- questionText
+- answer
+- pointValue
+- [ ] Display your props in the Question Component
+- [ ] Use any extra time to style your comonents
 
-### CSS
-- [ ] Style your page using color, flexbox, and/or box model.
 
 ### Wrap
 - [ ] Push your changes!
 
 
 ## Day 3
-### JS
-- [ ] Complete at least one of the folowing extensions:
-    - Create a button that randomly chooses only one gif from response.
-    - Display all the images in the response to the screen.
-    - Create a mail_to link that will email the gif to anyone you want.
-    - Make the gif pop out in a modal when clicked on.
+- [ ] Add click function to your component
+- [ ] When a user clicks on a question you should alert the question.
+- [ ] Use any additional time to style your component
+
 
 ### Wrap
 - [ ] Push your changes!
+
+## Day 4
+- [ ] Add state to your Question Components
+- [ ] When you click on the question update the message text for each question on the screen
+- [ ] First display the point value, then the question, then the answer, than nothing.
+
+
+### Wrap
+- [ ] Push your changes!
+
 
 
