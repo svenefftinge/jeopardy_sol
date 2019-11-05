@@ -1,6 +1,9 @@
 # Jeopardy
 
 ### Gitpod Preview in Browser:
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer)
+
 - npm install
 - npm start
 
